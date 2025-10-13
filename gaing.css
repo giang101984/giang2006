@@ -1,0 +1,44 @@
+/* Tổng thể container */
+.container {
+  width: 400px;
+  background-color: #00a2ff; /* nền xanh dương cho phần tiêu đề */
+  border: 3px dashed red;
+  padding: 10px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tiêu đề */
+h1 {
+  color: yellow;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Phần mô tả có ảnh + đoạn văn */
+.description {
+  background-color: green;
+  border: 3px dashed red;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+/* Ảnh trong phần mô tả */
+.description img {
+  width: 150px;
+  float: left;
+  margin-right: 10px;
+  border: 2px solid yellow;
+}
+
+/* Phần đoạn cuối (footer) */
+.footer {
+  background-color: green;
+  border: 3px dashed red;
+  color: yellow;
+  padding: 10px;
+  margin-top: 10px;
+}
