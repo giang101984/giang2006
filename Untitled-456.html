@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Preview</title>
+  <style>
+    #image {
+      width: 400px;
+      height: 250px;
+      background-color: lightgray;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      line-height: 250px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .preview {
+      width: 100px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="image">Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.</div>
+
+  <img class="preview" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/176028/Originals/background%20do%20(4).jpg" alt="Hình màu đỏ" onmouseover="update(this)" onmouseout="undo()">
+  <img class="preview" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/175505/Originals/background-xanh-la%20(8).jpg" alt="Hình màu xanh lá" onmouseover="update(this)" onmouseout="undo()">
+  <img class="preview" src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/05/anh-mau-xanh-duong-42.jpg" alt="Hình màu xanh dương" onmouseover="update(this)" onmouseout="undo()">
+
+  <script src="script.js"></script>
+</body>
+</html>
