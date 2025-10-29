@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư Viện Ảnh Tương Tác</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+    <header>
+        <h1>Thư Viện Ảnh Tuyệt Vời</h1>
+    </header>
+
+    <main>
+        <div id="image-gallery">
+            <img id="display" src="images/placeholder.jpg" alt="Vị trí hiển thị hình ảnh lớn. Bấm vào một hình ảnh nhỏ để xem." width="600" height="400">
+        </div>
+
+        <div id="thumbnails">
+            <img src="images/img1.jpg" alt="Hình ảnh 1: Cảnh hoàng hôn trên biển" id="img1" class="preview"
+                onmouseover="upDate(this)" onmouseleave="unDo()"
+                onfocus="upDate(this)" onblur="unDo()">
+
+            <img src="images/img2.jpg" alt="Hình ảnh 2: Dãy núi phủ tuyết" id="img2" class="preview"
+                onmouseover="upDate(this)" onmouseleave="unDo()"
+                onfocus="upDate(this)" onblur="unDo()">
+
+            <img src="images/img3.jpg" alt="Hình ảnh 3: Thành phố về đêm" id="img3" class="preview"
+                onmouseover="upDate(this)" onmouseleave="unDo()"
+                onfocus="upDate(this)" onblur="unDo()">
+
+            <img src="images/img4.jpg" alt="Hình ảnh 4: Bầu trời đầy sao" id="img4" class="preview"
+                onmouseover="upDate(this)" onmouseleave="unDo()"
+                onfocus="upDate(this)" onblur="unDo()">
+
+            <img src="images/img5.jpg" alt="Hình ảnh 5: Cánh đồng hoa hướng dương" id="img5" class="preview"
+                onmouseover="upDate(this)" onmouseleave="unDo()"
+                onfocus="upDate(this)" onblur="unDo()">
+
+            <img src="images/img6.jpg" alt="Hình ảnh 6: Hẻm núi sâu" id="img6" class="preview"
+                onmouseover="upDate(this)" onmouseleave="unDo()"
+                onfocus="upDate(this)" onblur="unDo()">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Thư Viện Ảnh</p>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
